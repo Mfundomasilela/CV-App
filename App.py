@@ -364,6 +364,7 @@ def run():
 
 
                 ## Interview Preparation Video
+                """
                 st.header("**Bonus Video for Interview Tips💡**")
                 interview_vid = random.choice(interview_videos)
                 int_vid_title = fetch_yt_video(interview_vid)
@@ -373,6 +374,7 @@ def run():
                 connection.commit()
             else:
                 st.error('Something went wrong..')
+                """
     else:
         ## Admin Side
         st.success('Welcome to Admin Side')
