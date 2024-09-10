@@ -370,11 +370,11 @@ def run():
                 int_vid_title = fetch_yt_video(interview_vid)
                 st.subheader("✅ **" + int_vid_title + "**")
                 st.video(interview_vid)
-
+                """
                 connection.commit()
             else:
                 st.error('Something went wrong..')
-                """
+             
     else:
         ## Admin Side
         st.success('Welcome to Admin Side')
