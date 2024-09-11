@@ -29,8 +29,8 @@ import base64,random
 import time,datetime
 import nltk
 import os
-import yt_dlp
-os.environ['PAFY_BACKEND'] = 'internal'
+
+
 
 import pafy
 nltk.download('stopwords')
